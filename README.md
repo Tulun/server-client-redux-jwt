@@ -1,0 +1,1 @@
+Implementation of JWT w/ Redux, React, Node, Express.
