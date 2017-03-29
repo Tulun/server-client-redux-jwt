@@ -14,7 +14,9 @@ const jwtOptions = {
 // Create Local Strategy
 const localOptions = { usernameField: 'email' };
 const localLogin = new LocalStrategy({ localOptions }, function(email, password, done) {
-
+  // Verify this email and password, call done with the user
+  // if email/password matches.
+  // otherwise call done with false.
 });
 
 // Create JWT strategy.
